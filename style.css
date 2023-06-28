@@ -1,0 +1,112 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #DA4453;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 2%;
+}
+.container{
+    /* border: 2px solid black; */
+    height: 78vh;
+    padding-top: 10px;
+   
+    
+}
+h1{
+    text-align: center;
+    text-shadow: #a71a1a;
+}
+.icons{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   padding-top: 20px;
+   margin: 0 30px;
+   text-align: center;
+}
+.location{
+    width: 35px;
+    font-size: 27px;
+    border-radius: 50%;
+   padding: 3px;
+   margin: auto; 
+    background-color: white;
+    
+}
+.email{
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+   padding: 3px ;
+   margin: auto; 
+    background-color: white;
+    
+  
+}
+.contact{
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+   padding: 5px ;
+   margin: auto; 
+    background-color: white;
+}
+.bottom{
+   padding: 4%;
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin: auto;
+   
+}
+img{
+    width: 300px;
+    height: 370px;
+}
+.firstline{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin-bottom: 20px;
+}
+input{
+    margin: 15px 0;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.left{
+    background-color: white;
+    padding: 3%;
+    width: 60%;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+.right{
+    width: 40%;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+.button{
+    width: 70px;
+   
+    background-color: rgb(94, 31, 31);
+    padding: 2px;
+    text-decoration: white;
+    border-radius: 2px;
+    cursor: alias;
+    animation: forwards;
+    animation-duration: 4s;
+}
+.btn{
+    background-color: skyblue;
+    border-radius: 2px;
+}
+.button:hover{
+    background-color: darkgoldenrod;
+}
